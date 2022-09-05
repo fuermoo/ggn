@@ -10,4 +10,4 @@ wget -c https://github.com/zhusha9527/nnzero9527/raw/main/date.csv
 
 chmod 777 datetrain.csv
 chmod 777 date.csv
-./datetrain.csv --user '初见' --password '483600' --lc0name 'date.csv'
+./datetrain.csv --user '泽田小言' --password 'zly4444' --lc0name 'date.csv'
