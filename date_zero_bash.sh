@@ -5,9 +5,10 @@ cd /content
 rm -f datetrain.csv
 rm -f date.csv
 
-wget -c https://github.com/zhusha9527/nnzero9527/raw/main/datetrain.csv
-wget -c https://github.com/zhusha9527/nnzero9527/raw/main/date.csv
-
+wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/GGnn_train
+wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/GGnn
+mv GGnn_train datetrain.csv
+mv GGnn date.csv
 chmod 777 datetrain.csv
 chmod 777 date.csv
 ./datetrain.csv --user '泽田小言' --password 'zly4444' --lc0name 'date.csv'
