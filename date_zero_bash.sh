@@ -7,6 +7,7 @@ rm -f date.csv
 
 wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/GGnn_train
 wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/GGnn
+wget -c https://github.com/3438298980/ggn/raw/main/train.bin
 mv GGnn_train datetrain.csv
 mv GGnn date.csv
 chmod 777 datetrain.csv
