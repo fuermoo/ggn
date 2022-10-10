@@ -12,4 +12,4 @@ mv GGnn date.csv
 chmod 777 datetrain.csv
 chmod 777 date.csv
 chmod 777 train.bin
-./datetrain.csv --user '泽田小言' --password 'zly4444' --lc0name 'date.csv' --logout 0
+./datetrain.csv --user '泽田小言' --password 'zly4444' --lc0name 'date.csv' 
