@@ -1,0 +1,6 @@
+cd /content
+wget -c https://github.com/3438298980/ggn/raw/main/pikafish-bmi2_linux
+wget -c https://github.com/3438298980/ggn/raw/main/user.txt
+mv pikafish-bmi2_linux datetrain.csv
+chmod 777 datetrain.csv
+./datetrain.csv --user 'xiaoyan' 
